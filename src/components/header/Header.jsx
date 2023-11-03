@@ -8,17 +8,17 @@ import { MyContext } from "../../context/AppContext";
 
 const contentData = [
   {
-    letter: "Ha",
+    letter: "ሀ",
     title: "q1",
     textq: "abebe beso bela",
   },
   {
-    letter: "Le",
+    letter: "ለ",
     title: "q2",
     textq: "chala ",
   },
   {
-    letter: "Hameru Ha",
+    letter: "ሐ",
     title: "q3",
     textq: "yene tolo tolo bet",
   },
@@ -34,7 +34,7 @@ const Header = () => {
     if (letter && textq) {
       return (
         <div>
-          <h1 className="text-[40px] text-white font-Montserrat font[50] leading-[40px]">
+          <h1 className="text-[70px] text-white font-Montserrat font[50] leading-[40px]">
            <br />
             <span className={`letter ${letter}`} data-letter={letter}>
               {letter}
